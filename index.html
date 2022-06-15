@@ -8,16 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form method="get">
         <label>
             <span>First name</span> 
             <input autofocus id="first-name" type="text" placeholder="First name" name="firstName" required>
         </label>
         
-
-        <input type="email" placeholder="Last name" name="email" required>
-
-        <input type="password" placeholder="Password" name="password" required>
+        <label>
+            <span>Enter your email</span>
+            <input type="email" placeholder="email" name="email" required>
+        </label>
+        
+        <label>
+            <span>Enter your password</span>
+            <input type="password" placeholder="Password" name="password" required>
+        </label>
+        
 
         <button type="submit">Done!</button>
     </form>
